@@ -610,104 +610,97 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 40px
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="section-wrap">
-    <p class="section-label" data-en="04. Projects" data-hi="04. प्रोजेक्ट">04. Projects</p>
-    <h2 class="section-title reveal" data-en="What I've <span>Built</span>" data-hi="मैंने क्या <span>बनाया</span>">What I've <span>Built</span></h2>
-    <div class="divider"></div>
-    <div class="projects-filter">
-      <button class="filter-btn active" data-filter="all" data-en="All" data-hi="सभी">All</button>
-      <button class="filter-btn" data-filter="ai" data-en="AI" data-hi="AI">AI</button>
-      <button class="filter-btn" data-filter="web" data-en="Web" data-hi="वेब">Web</button>
-      <button class="filter-btn" data-filter="data" data-en="Data Science" data-hi="डेटा साइंस">Data Science</button>
+  <!-- ALL IN ONE QR -->
+<div class="project-card reveal" data-cat="web">
+  <div class="project-thumb" style="background:linear-gradient(135deg,#00d4ff22,#10b98122)">
+    <div class="project-thumb-bg">🔳</div>
+    <div class="project-category-badge">Web</div>
+  </div>
+  <div class="project-body">
+    <div class="project-name">All In One QR</div>
+    <div class="project-desc">
+      A versatile QR code generation platform that allows users to create QR codes for URLs, text, contact information, social media profiles, and other digital content through a simple and user-friendly interface.
     </div>
-    <div class="projects-grid">
-      <div class="project-card reveal" data-cat="ai">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#00d4ff22,#8b5cf622)">
-          <div class="project-thumb-bg">🎙️</div>
-          <div class="project-category-badge">AI</div>
-        </div>
-        <div class="project-body">
-          <div class="project-name">BABU ALL SPEAKERS</div>
-          <div class="project-desc" data-en="An AI-powered speech conversion platform that transforms and processes speaker audio with advanced voice synthesis capabilities." data-hi="एक AI-संचालित स्पीच कनवर्जन प्लेटफ़ॉर्म जो स्पीकर ऑडियो को प्रोसेस करता है।">An AI-powered speech conversion platform that transforms and processes speaker audio with advanced voice synthesis capabilities.</div>
-          <div class="project-tags">
-            <span class="project-tag">Python</span><span class="project-tag">AI/ML</span><span class="project-tag">NLP</span><span class="project-tag">Speech</span>
-          </div>
-          <div class="project-links">
-            <a class="project-link primary" href="https://github.com/Ramprakashprajapati" target="_blank">GitHub</a>
-            <a class="project-link" href="#" onclick="showToast('Live demo coming soon!','success')">Live Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card reveal" data-cat="ai data">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#ec489922,#8b5cf622)">
-          <div class="project-thumb-bg">🛡️</div>
-          <div class="project-category-badge">AI + Data</div>
-        </div>
-        <div class="project-body">
-          <div class="project-name">Digital Suraksha FraudShield India</div>
-          <div class="project-desc" data-en="A comprehensive fraud detection and awareness platform for India, combining ML models with public education tools to combat digital fraud." data-hi="भारत के लिए एक व्यापक फ्रॉड डिटेक्शन और जागरूकता प्लेटफ़ॉर्म।">A comprehensive fraud detection and awareness platform for India, combining ML models with public education tools to combat digital fraud.</div>
-          <div class="project-tags">
-            <span class="project-tag">Python</span><span class="project-tag">ML</span><span class="project-tag">Scikit-learn</span><span class="project-tag">HTML/CSS</span>
-          </div>
-          <div class="project-links">
-            <a class="project-link primary" href="https://github.com/Ramprakashprajapati" target="_blank">GitHub</a>
-            <a class="project-link" href="#" onclick="showToast('Live demo coming soon!','success')">Live Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card reveal" data-cat="web">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#f59e0b22,#ec489922)">
-          <div class="project-thumb-bg">🎯</div>
-          <div class="project-category-badge">Web</div>
-        </div>
-        <div class="project-body">
-          <div class="project-name">Truth Or Dare Web App</div>
-          <div class="project-desc" data-en="An interactive multiplayer web application for the classic Truth or Dare game with real-time gameplay and dynamic question generation." data-hi="ट्रुथ ऑर डेयर गेम के लिए एक इंटरेक्टिव मल्टीप्लेयर वेब एप्लिकेशन।">An interactive multiplayer web application for the classic Truth or Dare game with real-time gameplay and dynamic question generation.</div>
-          <div class="project-tags">
-            <span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span>
-          </div>
-          <div class="project-links">
-            <a class="project-link primary" href="https://github.com/Ramprakashprajapati" target="_blank">GitHub</a>
-            <a class="project-link" href="#" onclick="showToast('Live demo coming soon!','success')">Live Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card reveal" data-cat="web">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#10b98122,#00d4ff22)">
-          <div class="project-thumb-bg">📚</div>
-          <div class="project-category-badge">Web</div>
-        </div>
-        <div class="project-body">
-          <div class="project-name">Online Library System</div>
-          <div class="project-desc" data-en="A digital library platform enabling users to browse, search, and manage books online with a clean, accessible interface and database integration." data-hi="एक डिजिटल लाइब्रेरी प्लेटफ़ॉर्म जो उपयोगकर्ताओं को ऑनलाइन किताबें ब्राउज़ करने की सुविधा देता है।">A digital library platform enabling users to browse, search, and manage books online with a clean, accessible interface and database integration.</div>
-          <div class="project-tags">
-            <span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span><span class="project-tag">MySQL</span>
-          </div>
-          <div class="project-links">
-            <a class="project-link primary" href="https://github.com/Ramprakashprajapati" target="_blank">GitHub</a>
-            <a class="project-link" href="#" onclick="showToast('Live demo coming soon!','success')">Live Demo</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card reveal" data-cat="data">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#8b5cf622,#f59e0b22)">
-          <div class="project-thumb-bg">📦</div>
-          <div class="project-category-badge">Data Science</div>
-        </div>
-        <div class="project-body">
-          <div class="project-name">Business Analysis — Online Delivery Apps</div>
-          <div class="project-desc" data-en="A comprehensive research and analytics project analyzing user behavior, market trends, and business performance across major online delivery platforms in India." data-hi="भारत में प्रमुख ऑनलाइन डिलीवरी प्लेटफ़ॉर्म के व्यावसायिक विश्लेषण पर एक शोध परियोजना।">A comprehensive research and analytics project analyzing user behavior, market trends, and business performance across major online delivery platforms in India.</div>
-          <div class="project-tags">
-            <span class="project-tag">Python</span><span class="project-tag">Pandas</span><span class="project-tag">Matplotlib</span><span class="project-tag">Analysis</span>
-          </div>
-          <div class="project-links">
-            <a class="project-link primary" href="https://github.com/Ramprakashprajapati" target="_blank">GitHub</a>
-            <a class="project-link" href="#" onclick="showToast('Report coming soon!','success')">View Report</a>
-          </div>
-        </div>
-      </div>
+    <div class="project-tags">
+      <span class="project-tag">HTML</span>
+      <span class="project-tag">CSS</span>
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">QR API</span>
+    </div>
+    <div class="project-links">
+      <a class="project-link primary" href="https://github.com/Ramprakashprajapati/allinoneqr" target="_blank">GitHub</a>
     </div>
   </div>
+</div>
+
+<!-- PORTFOLIO -->
+<div class="project-card reveal" data-cat="web">
+  <div class="project-thumb" style="background:linear-gradient(135deg,#8b5cf622,#00d4ff22)">
+    <div class="project-thumb-bg">💼</div>
+    <div class="project-category-badge">Web</div>
+  </div>
+  <div class="project-body">
+    <div class="project-name">Ram Prakash Prajapati Portfolio</div>
+    <div class="project-desc">
+      A modern personal portfolio website showcasing professional skills, projects, certifications, achievements, and contact information with responsive design and interactive user experience.
+    </div>
+    <div class="project-tags">
+      <span class="project-tag">HTML</span>
+      <span class="project-tag">CSS</span>
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">Responsive Design</span>
+    </div>
+    <div class="project-links">
+      <a class="project-link primary" href="https://github.com/Ramprakashprajapati/Ram-Prakash-Prajapati-Portfolio" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- MY BOND -->
+<div class="project-card reveal" data-cat="web">
+  <div class="project-thumb" style="background:linear-gradient(135deg,#ec489922,#f59e0b22)">
+    <div class="project-thumb-bg">🤝</div>
+    <div class="project-category-badge">Web</div>
+  </div>
+  <div class="project-body">
+    <div class="project-name">My Bond</div>
+    <div class="project-desc">
+      A relationship and connection management platform designed to help users organize, strengthen, and maintain meaningful personal and professional relationships through digital interaction tools.
+    </div>
+    <div class="project-tags">
+      <span class="project-tag">HTML</span>
+      <span class="project-tag">CSS</span>
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">Web App</span>
+    </div>
+    <div class="project-links">
+      <a class="project-link primary" href="https://github.com/Ramprakashprajapati/My-Bond" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- SUKOON -->
+<div class="project-card reveal" data-cat="ai">
+  <div class="project-thumb" style="background:linear-gradient(135deg,#10b98122,#8b5cf622)">
+    <div class="project-thumb-bg">🌿</div>
+    <div class="project-category-badge">AI</div>
+  </div>
+  <div class="project-body">
+    <div class="project-name">SUKOON</div>
+    <div class="project-desc">
+      An AI-powered mental wellness and emotional support platform focused on promoting mindfulness, stress management, and positive well-being through intelligent guidance and user-centered interactions.
+    </div>
+    <div class="project-tags">
+      <span class="project-tag">Python</span>
+      <span class="project-tag">AI</span>
+      <span class="project-tag">NLP</span>
+      <span class="project-tag">Mental Wellness</span>
+    </div>
+    <div class="project-links">
+      <a class="project-link primary" href="https://github.com/Ramprakashprajapati/S-U-K-O-O-N-" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
 </section>
 
 <!-- GITHUB -->
