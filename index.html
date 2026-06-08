@@ -448,7 +448,7 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 40px
       <div class="hero-btns">
         <a href="#contact" class="btn-primary">⚡ <span data-en="Hire Me" data-hi="मुझे हायर करें">Hire Me</span></a>
         <a href="#projects" class="btn-secondary">🔭 <span data-en="View Projects" data-hi="प्रोजेक्ट देखें">View Projects</span></a>
-        <a href="ramprakashResume.docx" onclick="downloadResume()" class="btn-secondary">📄 <span data-en="Resume" data-hi="रिज्यूमे">Resume</span></a>
+        <a href="ramprakashramprakashResume.pdf" onclick="downloadResume()" class="btn-secondary">📄 <span data-en="Resume" data-hi="रिज्यूमे">Resume</span></a>
       </div>
       <div class="hero-socials">
         <a class="social-icon" href="https://github.com/Ramprakashprajapati" target="_blank" title="GitHub">
@@ -840,20 +840,51 @@ footer{background:var(--bg);border-top:1px solid var(--border);padding:48px 40px
 <!-- RESUME -->
 <section id="resume">
   <div class="section-wrap">
-    <p class="section-label" data-en="10. Resume" data-hi="10. रिज्यूमे">10. Resume</p>
-    <h2 class="section-title reveal" data-en="My <span>Resume</span>" data-hi="मेरा <span>रिज्यूमे</span>">My <span>Resume</span></h2>
+    <p class="section-label" data-en="10. Resume" data-hi="10. रिज्यूमे">
+      10. Resume
+    </p>
+
+    <h2 class="section-title reveal"
+        data-en="My <span>Resume</span>"
+        data-hi="मेरा <span>रिज्यूमे</span>">
+        My <span>Resume</span>
+    </h2>
+
     <div class="divider"></div>
+
     <div class="resume-card reveal">
       <div class="resume-icon">📄</div>
+
       <div class="resume-info">
         <h3>Ram Prakash Prajapati</h3>
         <p>Data Science & AI Enthusiast | BCA Student | Future Data Scientist</p>
-        <p style="margin-top:8px;font-size:13px;color:var(--neon)">📌 Upload your resume PDF to enable download/view</p>
+        <p style="margin-top:8px;font-size:13px;color:var(--neon)">
+          📌 Click View or Download Resume
+        </p>
       </div>
+
       <div class="resume-btns">
-        <button class="btn-primary" onclick="showToast('Upload resume PDF to enable this!','success')">👁️ View</button>
-        <button class="btn-secondary" onclick="downloadResume()">⬇️ Download</button>
-        <button class="btn-secondary" onclick="window.print()">🖨️ Print</button>
+
+        <!-- View Resume -->
+        <a href="ramprakashResume.pdf"
+           target="_blank"
+           class="btn-primary">
+           👁️ View
+        </a>
+
+        <!-- Download Resume -->
+        <a href="ramprakashResume.pdf"
+           download
+           class="btn-secondary">
+           ⬇️ Download
+        </a>
+
+        <!-- Print -->
+        <button class="btn-secondary"
+                onclick="window.print()">
+          🖨️ Print
+        </button>
+
       </div>
     </div>
   </div>
